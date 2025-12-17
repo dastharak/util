@@ -1,6 +1,7 @@
 # test_misc.py
+# TEST : pytest -vs
 import time
-from misc import spinner
+from util import spinner
 
 def test_spinner():
     t = 1

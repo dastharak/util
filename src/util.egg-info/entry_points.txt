@@ -1,0 +1,2 @@
+[console_scripts]
+my-util = my_utility.main:main_function
