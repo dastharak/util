@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "util"
+version = "0.1.0"
+description = "Some reusable utilities"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Dasun Tharaka", email = "sendtodasun@gmail.com"}]
