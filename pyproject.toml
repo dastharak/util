@@ -6,6 +6,5 @@ build-backend = "setuptools.build_meta"
 name = "util"
 version = "0.1.0"
 description = "Some reusable utilities"
-readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 authors = [{name = "Dasun Tharaka", email = "sendtodasun@gmail.com"}]
