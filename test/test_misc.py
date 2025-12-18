@@ -7,7 +7,7 @@ def test_spinner():
     t = 1
 
     print(f"Test {t}: Simulated long task")
-    print("Processing...", end="", flush=True)
+    print("Processing...", flush=True)
     s = spinner()
     for _ in range(80):
         s.printtp()
@@ -17,9 +17,9 @@ def test_spinner():
     t+=1
     print(f"\nTest {t}: Reusable progress function")
     def show_progress(duration=4, message="Working"):
-        print(f"{message}... ", end="", flush=True)
+        print(f"{message}... ", flush=True)
         s = spinner()
-        steps = int(duration / 0.1)
+        steps = int(duration / 0.01)
         for _ in range(steps):
             s.printtp()
             time.sleep(0.05)
